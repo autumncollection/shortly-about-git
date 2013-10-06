@@ -1,1 +1,3 @@
 *** README ***
+
+$ ruby ./app.rb 'some text'
