@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
 #encoding:utf-8
-
-p "Text content: '#{ARGV.empty? ? '' : ARGV[0]}'"
+text = ''
+ARGV.each{|word| text += " #{word}"}
+p "Text content: '#{ARGV.empty? ? '' : text.strip}'"
